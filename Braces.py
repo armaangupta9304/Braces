@@ -54,7 +54,7 @@ class TypoError(Error):
         super.__init__("Grammar Error", char, "This character is illegal")
 
     def activate(self):
-        super.activate()
+        self.activate()
 
 '''--------------------------MAIN BRACE CLASS--------------------------------'''
 
